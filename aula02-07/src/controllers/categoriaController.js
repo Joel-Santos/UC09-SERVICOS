@@ -32,6 +32,21 @@ const CategoriaController = {
         }catch(error){
             res.status(500).json({error: "Erro ao atualizar Categoria."});
         }
+    },
+    async deletarCategoria(req, res){
+        try{
+            const {id} = req.params;
+            const deleted = await Categoria.destroy({
+                where:{id}
+            });
+            if(deleted){
+                res.status(204).json();
+            }else{
+                res.status(404).json({error: "Categoria não encontrada"});
+            }
+        }catch(error){
+            res.status(500).json({error: "Erro ao excluir Categoria."});
+        }
     }
 }
 module.exports = CategoriaController;

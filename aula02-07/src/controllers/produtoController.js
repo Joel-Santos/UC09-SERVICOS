@@ -32,6 +32,21 @@ const ProdutoController = {
         }catch(error){
             res.status(500).json({error: "Erro ao atualizar Produto."});
         }
+    },
+    async deletarProduto(req, res){
+        try{
+            const {id} = req.params;
+            const deleted = await Produto.destroy({
+                where:{id}
+            });
+            if(deleted){
+                res.status(204).json();
+            }else{
+                res.status(404).json({error: "Produto não encontrada"});
+            }
+        }catch(error){
+            res.status(500).json({error: "Erro ao excluir Produto."});
+        }
     }
 }
 module.exports = ProdutoController;
