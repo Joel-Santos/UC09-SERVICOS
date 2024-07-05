@@ -1,4 +1,4 @@
-Aqui está o README.md atualizado:
+Para facilitar, aqui está o README.md gerado com base nas informações fornecidas:
 
 ```markdown
 # Vinícola Encantos do Vale API
@@ -14,9 +14,10 @@ Esta é a API para gerenciamento do catálogo de produtos, categorias e forneced
 - dotenv
 - nodemon
 
+
 ## Estrutura do Projeto
 
-```
+```sh
 vinicola-api/
 ├── config/
 │   └── config.json
@@ -136,4 +137,4 @@ npm run dev
 - Teste os endpoints antes de usar.
 ```
 
-Esse README.md oferece uma visão geral do projeto, incluindo tecnologias utilizadas, estrutura do projeto, configuração do banco de dados, modelos, controladores, rotas, e instruções para execução do servidor.
+Espero que esteja conforme o desejado!
