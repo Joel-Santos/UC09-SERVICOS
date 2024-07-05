@@ -17,7 +17,7 @@ Esta é a API para gerenciamento do catálogo de produtos, categorias e forneced
 
 ## Estrutura do Projeto
 
-```sh
+```
 vinicola-api/
 ├── config/
 │   └── config.json
@@ -137,4 +137,3 @@ npm run dev
 - Teste os endpoints antes de usar.
 ```
 
-Espero que esteja conforme o desejado!
