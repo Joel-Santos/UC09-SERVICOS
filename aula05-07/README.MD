@@ -1,5 +1,3 @@
-Para facilitar, aqui está o README.md gerado com base nas informações fornecidas:
-
 ```markdown
 # Vinícola Encantos do Vale API
 
