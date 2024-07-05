@@ -3,7 +3,12 @@ Para facilitar, aqui está o README.md gerado com base nas informações forneci
 ```markdown
 # Vinícola Encantos do Vale API
 
-Esta é a API para gerenciamento do catálogo de produtos, categorias e fornecedores da Vinícola Encantos do Vale. Desenvolvida utilizando Node.js, Express e Sequelize, esta API permite realizar operações CRUD (Create, Read, Update, Delete) em produtos, categorias e fornecedores.
+Esta é a API para gerenciamento do catálogo de produtos, 
+categorias e fornecedores da Vinícola Encantos do Vale. 
+Desenvolvida utilizando Node.js, Express e Sequelize, 
+esta API permite realizar operações CRUD (Create, Read, Update, Delete) 
+em produtos, categorias e fornecedores.
+
 
 ## Tecnologias Utilizadas
 
@@ -17,7 +22,7 @@ Esta é a API para gerenciamento do catálogo de produtos, categorias e forneced
 
 ## Estrutura do Projeto
 
-```
+
 vinicola-api/
 ├── config/
 │   └── config.json
@@ -135,5 +140,4 @@ npm run dev
 - Certifique-se de que o banco de dados MySQL esteja configurado e em execução.
 - Se precisar de ajuda, estou à disposição!
 - Teste os endpoints antes de usar.
-```
 
