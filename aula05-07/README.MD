@@ -85,7 +85,7 @@ Atualize o arquivo `config/config.json` com as credenciais do seu banco de dados
 - **contato**: STRING
 
 ## Controladores
-
+,
 ### ProdutoController
 - **listar(req, res)**: Lista todos os produtos.
 - **criar(req, res)**: Cria um novo produto.
