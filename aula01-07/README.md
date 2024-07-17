@@ -77,4 +77,4 @@ Nesta aula, configuramos um servidor básico usando Node.js e Express e criamos 
 
 ## Próxima Aula
 
-[Aula 02 - Integração com Banco de Dados](../Aula02)
+[Aula 02 - Integração com Banco de Dados](../aula02-07)
